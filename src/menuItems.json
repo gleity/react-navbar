@@ -1,0 +1,26 @@
+
+    [
+        {
+          "title":"Home",
+          "url":"/"
+        },
+        {
+          "title":"Menu1",
+          "url":"/menu1",
+          "subMenu": [
+            {"title": "subMenu1", "url": "/subMenu1", "subMenu": [
+                {"title": "subSubMenu1", "url": "/subSubMenu1", "subMenu": [
+                    {"title": "subMenu1", "url": "/subMenu1"},
+                    {"title": "subMenu2", "url": "/subMenu2"},
+                    {"title": "subMenu3", "url": "/subMenu3"}
+                ]}
+
+            ]},
+            {"title": "subMenu2", "url": "/subMenu2"}
+          ]
+        },
+        {
+          "title":"Menu2",
+          "url":"/menu2"
+        }
+      ]
